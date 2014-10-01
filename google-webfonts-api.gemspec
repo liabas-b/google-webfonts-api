@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
-# stub: google-webfonts-api 0.1.0 ruby lib
+# stub: google-webfonts-api 0.2.0 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "google-webfonts-api"
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Benoit Liabastre"]
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.description = "Generate a unique token with ActiveRecord"
   s.email = "b.liabastre@gmail.com"
   s.extra_rdoc_files = ["README.rdoc", "lib/google_webfonts_api.rb"]
-  s.files = Dir.glob("{bin,lib}/**/*") + %w(README.rdoc)
+  s.files = ["README.rdoc", "Rakefile", "google-webfonts-api.gemspec", "lib/google_webfonts_api.rb", "Manifest"]
   s.homepage = "http://github.com/liabas-b/google-webfonts-api"
   s.rdoc_options = ["--line-numbers", "--title", "Google-webfonts-api", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
