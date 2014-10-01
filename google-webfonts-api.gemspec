@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.description = "Generate a unique token with ActiveRecord"
   s.email = "b.liabastre@gmail.com"
   s.extra_rdoc_files = ["README.rdoc", "lib/google_webfonts_api.rb"]
-  s.files = ["README.rdoc", "Rakefile", "google-webfonts-api.gemspec", "lib/google_webfonts_api.rb"]
+  s.files = Dir.glob("{bin,lib}/**/*") + %w(README.rdoc)
   s.homepage = "http://github.com/liabas-b/google-webfonts-api"
   s.rdoc_options = ["--line-numbers", "--title", "Google-webfonts-api", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
