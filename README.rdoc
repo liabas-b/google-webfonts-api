@@ -1,0 +1,3 @@
+= Google Webfonts Api
+
+Rails gem for getting the list of gogle web fonts for your web site.
