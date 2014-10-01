@@ -2,8 +2,9 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 require 'httparty'
+require 'json'
 
-Echoe.new('google-webfonts-api', '0.2.0') do |p|
+Echoe.new('google-webfonts-api', '0.3.0') do |p|
   p.description     = "Generate a unique token with ActiveRecord"
   p.url             = "http://github.com/liabas-b/google-webfonts-api"
   p.author          = "Benoit Liabastre"

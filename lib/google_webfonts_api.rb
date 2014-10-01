@@ -8,7 +8,7 @@ module GoogleWebfonts
     end
 
     def index
-      self.class.get(BASE_URI, @options)
+      JSON.parse(self.class.get(BASE_URI, @options).response.body)
     end
   end
 end
