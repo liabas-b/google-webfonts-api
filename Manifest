@@ -1,0 +1,5 @@
+Manifest
+README.rdoc
+Rakefile
+google-webfonts-api.gemspec
+lib/google_webfonts_api.rb
