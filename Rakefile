@@ -4,7 +4,7 @@ require 'echoe'
 require 'httparty'
 require 'json'
 
-Echoe.new('google-webfonts-api', '0.4.0') do |p|
+Echoe.new('google-webfonts-api', '0.4.1') do |p|
   p.description     = "Generate a unique token with ActiveRecord"
   p.url             = "http://github.com/liabas-b/google-webfonts-api"
   p.author          = "Benoit Liabastre"
